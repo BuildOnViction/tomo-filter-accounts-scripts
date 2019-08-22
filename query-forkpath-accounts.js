@@ -4,11 +4,10 @@ const level = require('level');
 const Account = require("ethereumjs-account").default;
 const ethutil = require('ethereumjs-util');
 const BN = ethutil.BN;
-const ENV = require("env.json");
-const db = level(ENV.CANONICAL_CHAINDATA_PATH);
+const ENV = require("./env.json");
+const db = level(ENV.FORK_CHAINDATA_PATH);
 
-// var root = '0xc96e205f8e0d7dccea94c04fde6e6f7e508a3bbb91d2630335b37fbe23ec3a87';  // which block is this ?? 9073702
-var root = "0x41429ade101c9ed6d4fb1105a4ae9b83645ddffda69cbad282c8947e1ee1fcf6"; // 9073699                 
+var root = "0xb789eea477a3e1900146fd3f891eebe5150acb8a301a54ec871e019e9161217a"; // 9073620                 
 var trie = new Trie(db, root);
 
 //Creating a nodejs stream object so that we can access the data
@@ -31,8 +30,8 @@ stream
 
         if (balance > 0) {
             console.log(JSON.stringify(accInJson));
-        }	
-        
+        }
+
     })
     .on('end', function () {
         process.exit(-1);
