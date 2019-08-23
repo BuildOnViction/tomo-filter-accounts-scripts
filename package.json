@@ -5,8 +5,8 @@
     "scripts": {
         "query-accounts-canonical": "node query-canonical-accounts.js > accounts-mainchain.txt &",
         "query-accounts-fork": "node query-accounts-forkpath.js > accounts-forkpath.txt &",
-        "import-canonical-data": "mongoimport --db tomochain --collection canonical-accounts --file accounts-mainchain.json",
-        "import-fork-data": "mongoimport --db tomochain --collection fork-accounts --file accounts-forkpath.json",
+        "import-canonical-data": "mongoimport --db tomochain --collection canonical-accounts --file accounts-mainchain.txt",
+        "import-fork-data": "mongoimport --db tomochain --collection fork-accounts --file accounts-forkpath.txt",
         "diff": "node diff.js"
     },
     "author": "",
