@@ -1,6 +1,6 @@
 # Scripts and snapshot links of tomochain to find all the injected accounts's balance
 ## Links
-  - [Canonical snapshot (ịnjected accounts)](https://sgp1.digitaloceanspaces.com/chaindata/20190808-injected-accounts-canonical.zip)
+  - [Canonical snapshot (injected accounts)](https://sgp1.digitaloceanspaces.com/chaindata/20190808-injected-accounts-canonical.zip)
   - [Fork snapshot](https://sgp1.digitaloceanspaces.com/chaindata/origin_chaindata.tar)
   - [Extracted accounts from canonical snapshot](https://sgp1.digitaloceanspaces.com/chaindata/accounts-canonical-9073620.txt)
   - [Extracted accounts from fork snapshot](https://sgp1.digitaloceanspaces.com/chaindata/accounts-forkpath-9073620.txt)
