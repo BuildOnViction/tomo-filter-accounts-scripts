@@ -1,5 +1,5 @@
 {
-    "name": "tomo-filter-manipulated-accounts-scripts",
+    "name": "tomo-filter-accounts-scripts",
     "version": "0.1.0",
     "description": "Find out all manipulated accounts on tomochain system",
     "scripts": {
