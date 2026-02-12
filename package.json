@@ -17,7 +17,7 @@
         "exceljs": "^1.15.0",
         "level": "^5.0.1",
         "merkle-patricia-tree": "^3.0.0",
-        "mongoose": "^5.6.10",
+        "mongoose": "^5.7.5",
         "rlp": "^2.2.3",
         "web3": "^1.2.1"
     }
